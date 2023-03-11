@@ -1,7 +1,4 @@
 #!/bin/bash
 
-# Change the owner of the file "_hello" to "vincent"
-chown vincent _hello
+chgrp school hello
 
-# Change the group owner of the file "_hello" to "staff"
-chgrp staff _hello
