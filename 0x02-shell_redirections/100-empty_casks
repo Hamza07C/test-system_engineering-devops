@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*' -prune -o -type f -empty -printf "%f\n" -o -type d -empty -printf "%f\n" -quit
+find . -name -type f -empty -printf "%f\n" -o -type d -empty -printf "%f\n" -quit
